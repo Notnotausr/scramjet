@@ -277,6 +277,9 @@ importers:
       '@mercuryworkshop/proxy-transports':
         specifier: 'catalog:'
         version: 1.0.2
+      cargo:
+        specifier: ^0.8.0
+        version: 0.8.0
       dom-serializer:
         specifier: ^2.0.0
         version: 2.0.0
@@ -1547,6 +1550,9 @@ packages:
 
   caniuse-lite@1.0.30001761:
     resolution: {integrity: sha512-JF9ptu1vP2coz98+5051jZ4PwQgd2ni8A+gYSN7EA7dPKIMf0pDlSUxhdmVOaV3/fYK5uWBkgSXJaRLr4+3A6g==}
+
+  cargo@0.8.0:
+    resolution: {integrity: sha512-Fl49HZ8CAs4++TjtwcoZgwyq2ZQUiFVGQ3byyKKUilNk65iuBRDjpCGH/AUORvAODaVVbGbKyFCa67tlDG3p4g==}
 
   cbor@10.0.11:
     resolution: {integrity: sha512-vIwORDd/WyB8Nc23o2zNN5RrtFGlR6Fca61TtjkUXueI3Jf2DOZDl1zsshvBntZ3wZHBM9ztjnkXSmzQDaq3WA==}
@@ -4846,6 +4852,8 @@ snapshots:
   callsites@4.2.0: {}
 
   caniuse-lite@1.0.30001761: {}
+
+  cargo@0.8.0: {}
 
   cbor@10.0.11:
     dependencies:

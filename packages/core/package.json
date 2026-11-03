@@ -58,6 +58,7 @@
 	},
 	"dependencies": {
 		"@mercuryworkshop/proxy-transports": "catalog:",
+		"cargo": "^0.8.0",
 		"dom-serializer": "^2.0.0",
 		"domhandler": "^5.0.3",
 		"domutils": "^3.2.2",
